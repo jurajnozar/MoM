@@ -1,16 +1,7 @@
 <?php
-    //Initiate localization
-    //if (!isset($_GET['locale_id'])){
-        $locale = 'en_US.UTF-8';
-    //} else {
-    //    $locale = $_GET['locale_id'];
-    //}
-    putenv("LANGUAGE=".$locale);
-    setlocale(LC_ALL, $locale);
-    $domain = "messages";
-    bindtextdomain($domain, "locale");
-    bind_textdomain_codeset($domain, 'UTF-8');
-    textdomain($domain);
+    include('./locale/localization.php');
+    // initialize localization
+    L10n::initialize($_GET['locale_id']);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,6 +20,6 @@
     </head>
 
     <body>
-        <? echo gettext("hello"); ?>
+        <? echo L10n::trans('hello'); ?>
     </body>
 </html>
