@@ -1,0 +1,20 @@
+/*room for predefined values*/
+:root {
+    --color-text: #1d2124;
+    --color-nav-item-normal: #1d2124;
+    --color-nav-item-hover: blue;
+    --color-nav-item-active: red;
+}
+
+/*display style of the brand elements*/
+.brand-logo-sm {
+    width: 25px;
+    height: 25px;
+}
+
+.brand-name-style {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,20 @@
+/*
+    Style of the navigation elements on the site
+*/
+.nav-link {
+    color: var(--color-nav-item-normal);
+}
+
+.nav-link:hover {
+    color: var(--color-nav-item-hover);
+}
+
+.navbar-expand-md .navbar-toggler {
+    background: transparent;
+    border: 0px solid #333;
+    color: #333;
+    font-size: 25px;
+    padding-top: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}

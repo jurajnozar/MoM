@@ -38,6 +38,7 @@
 
         // method to retrieve localized message for given $key
         public static function trans($key) {
+            $return = $key;
             if (self::$localization == null) {
                 throw new Exception("Localization is not initialized! First call L10n::initialize().");
             }
@@ -45,11 +46,11 @@
             // get localized value
             $value = self::$localization[$key];
 
-            if ($value == null) {
-                return $key;
-            } else {
-                return $value;
+            if ($value != null) {
+                $return = $value;
             }
+
+            echo $return;
         }
     }
 ?>
