@@ -5,6 +5,7 @@
         "site.navigation.pricing" => "Pricing",
         "site.navigation.aboutUs" => "About us",
         "site.navigation.contact" => "Contact",
-        "site.navigation.locale" => "Language"
+        "site.navigation.login" => "Log in",
+        "site.navigation.locale" => "Language",
     );
 ?>

@@ -18,3 +18,12 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+.navbar-expand-md .navbar-nav .active > .nav-link,
+.navbar-expand-md .navbar-nav .nav-link.active,
+.navbar-expand-md .navbar-nav .nav-link.open,
+.navbar-expand-md .navbar-nav .open > .nav-link {
+    color: var(--color-nav-item-active) !important;
+    width: 100%;
+    font-weight: bold;
+}
