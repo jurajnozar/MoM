@@ -17,3 +17,5 @@ For simple running of the web application by typing "//localhost/mom" into web b
 
 For localization is used "gettext" in php: https://phrase.com/blog/posts/php-how-to-translate-php-apps/
 Command for compiling .po files to .mo "/Applications/XAMPP/xamppfiles/bin/msgfmt messages.po"
+
+Use http://localhost/phpmyadmin (case sensitive) to get to the administration of the appache and DB web front end.

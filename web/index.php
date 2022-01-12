@@ -52,7 +52,7 @@
                                 <a class="nav-link" href="index.php/#about-us"><?L10n::trans('site.navigation.aboutUs')?></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="login.php/#login"><?L10n::trans('site.navigation.login')?></a>
+                                <a class="nav-link" href="index.php/#login"><?L10n::trans('site.navigation.login')?></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="index.php/#footer"><?L10n::trans('site.navigation.contact')?></a>
@@ -64,20 +64,45 @@
         <!-- Navbar End -->
         </header>
 
-        <div id="hero-area">
-        </div>
+        <section id="hero-area">
+            <div class="container">
+            </div>
+        </section>
 
-        <div id="application">
-        </div>
+        <section id="application">
+        </section>
 
-        <div id="pricing">
-        </div>
+        <section id="login">
+            <div class="container">
+                <div class="section-header">
+                    <h1><?L10n::trans('site.navigation.login')?></h1>
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                        <form id="form-login">
+                            <span><?L10n::trans('site.inputs.username')?></span>
+                            <input type="text" value="test"></input>
+                            <br><br>
+                            <span><?L10n::trans('site.inputs.password')?></span>
+                            <input type="password" value="test"></input>
+                            <br><br>
+                            <input type="submit">
+                        </form>
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+            </div>
+        </section>
 
-        <div id="about-us">
-        </div>
+        <section id="pricing">
+        </section>
 
-        <div id="footer">
-        </div>
+        <section id="about-us">
+        </section>
+
+        <section id="footer">
+        </section>
 
         <!-- Load JavaScripts -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

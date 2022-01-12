@@ -7,5 +7,8 @@
         "site.navigation.contact" => "Contact",
         "site.navigation.login" => "Log in",
         "site.navigation.locale" => "Language",
+
+        "site.inputs.username" => "User name",
+        "site.inputs.password" => "Password",
     );
 ?>

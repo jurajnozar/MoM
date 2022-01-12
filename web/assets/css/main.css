@@ -6,6 +6,10 @@
     --color-nav-item-active: red;
 }
 
+body {
+    color: var(--color-text);
+}
+
 /*display style of the brand elements*/
 .brand-logo-sm {
     width: 25px;
@@ -16,5 +20,13 @@
     color: black;
     font-size: 18px;
     font-weight: bold;
+}
+
+#hero-area {
+    margin-top: 50px;
+}
+
+.section-header {
+    text-align: center;
 }
 
